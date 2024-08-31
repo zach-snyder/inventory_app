@@ -1,0 +1,5 @@
+djvenv/*
+*.pyc
+inventory_app/__pycache__/*
+*/inventory_app/__pycache__/views.cpython-311.pyc
+inventory_app/__pycache__/views.cpython-311.pyc
