@@ -5,6 +5,5 @@ from django.http import HttpResponse
 def index(request):
 
 # Render the HTML template index.html with the data in the context variable.
-   return HttpResponse('Next Step: add content to this page(html file)\nviews.py testingperms')
-
+   return render(request, 'index.html')
    

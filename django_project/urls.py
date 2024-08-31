@@ -21,4 +21,5 @@ from django.contrib.auth import views as auth_views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('inventory_app.urls')),
-]
+    path('login/', auth_views.LoginView.as_view(), name='login'),
+]   
