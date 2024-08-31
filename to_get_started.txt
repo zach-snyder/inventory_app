@@ -1,0 +1,7 @@
+install python (using 3.11.4) on machine
+
+clone repo into local directory
+
+in that directory, set up venv(i name it djvenv)
+
+install Django 4.2
